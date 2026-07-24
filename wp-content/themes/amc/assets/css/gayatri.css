@@ -19,3 +19,36 @@
     object-fit: contain;
     background: #fff;
 }
+
+/* Carousel: dark gradient behind the white slide text so it stays readable
+   on any background image */
+.box-content-swiper-01::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .45) 0%, rgba(0, 0, 0, .1) 60%, rgba(0, 0, 0, .25) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.box-content-swiper-01 .box-internal-swiper {
+    z-index: 2;
+}
+
+/* Lenis smooth-scroll base styles */
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
