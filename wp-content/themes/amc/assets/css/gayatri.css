@@ -20,6 +20,13 @@
     background: #fff;
 }
 
+/* Value chain: clip the parallax-scaled images inside their rounded boxes
+   (the theme only rounds the img, it never clips the container) */
+.box-img-item-culture {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
 /* Carousel: dark gradient behind the white slide text so it stays readable
    on any background image */
 .box-content-swiper-01::before {
