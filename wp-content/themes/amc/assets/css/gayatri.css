@@ -1,0 +1,21 @@
+/* Gayatri Herbals overrides — loaded after responsive.css so these rules win the cascade.
+   The logo appears only in the banner section box (preloader + hero overlay). */
+
+/* Home hero overlay logo (sits over the banner video) */
+.box-logo-img-50-50 img {
+    width: clamp(140px, 13vw, 240px);
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Product detail hero: the theme hides the banner image box on the home page
+   (the preloader morphs into its place) — restore it on the product page. */
+.section-banner-product .box-img-50-50 {
+    visibility: visible;
+    height: clamp(352.5px, 34.4070278vw, 587.5px);
+}
+
+.section-banner-product .box-img-50-50 .product-hero-img {
+    object-fit: contain;
+    background: #fff;
+}

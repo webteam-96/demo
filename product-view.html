@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="wp-content/themes/amc/assets/less/main.css">
     <link rel="stylesheet" href="wp-content/themes/amc/assets/css/style.css">
     <link rel="stylesheet" href="wp-content/themes/amc/assets/css/responsive.css">
+    <link rel="stylesheet" href="wp-content/themes/amc/assets/css/gayatri.css">
     <link rel="icon" href="wp-content/uploads/gayatri/logo.jpg" sizes="32x32">
     <link rel="apple-touch-icon" href="wp-content/uploads/gayatri/logo.jpg">
     <style>
         .box-specs-product .texto-02 { margin-bottom: 10px; }
         .box-specs-product { margin-top: 25px; }
         .btn-enquire { display: inline-block; margin-top: 30px; }
-        .section-banner-custom-01 .box-img-50-50 img.product-hero-img { object-fit: cover; }
     </style>
 </head>
 
@@ -30,8 +30,6 @@
             <div class="box-top-header bar-open-menu">
                 <div class="box-logo-header">
                     <a href="index.html">
-                        <img src="wp-content/uploads/gayatri/logo.jpg" alt="Gayatri Herbals Pvt. Ltd." class="show-desktop">
-                        <img src="wp-content/uploads/gayatri/logo.jpg" alt="Gayatri Herbals Pvt. Ltd." class="show-mobile">
                     </a>
                 </div>
                 <div class="box-menu-header">
@@ -43,8 +41,6 @@
             <div class="box-bottom-header">
                 <div class="box-logo-header">
                     <a href="https://www.gayatriherbalsindia.com/" target="blank_">
-                        <img src="wp-content/uploads/gayatri/logo.jpg" alt="Gayatri Herbals Pvt. Ltd." class="show-desktop">
-                        <img src="wp-content/uploads/gayatri/logo.jpg" alt="Gayatri Herbals Pvt. Ltd." class="show-mobile">
                     </a>
                 </div>
             </div>
@@ -127,16 +123,16 @@
 
             <div class="box-secundary-links" id="secundary-03">
                 <ul class="list-links-01">
-                    <li class="texto-01"><a href="product-view.html" class="link link1">De-Tan Gel</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Aloe Vera Neem Tulsi Gel</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Aloe Vera Skin Gel</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Aloe Vera Shampoo</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Hair Growth Serum</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Pain Relief Balm</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Roll On Deodorant</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Herbal Ubtan Powder</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Mint Lip Balm</a></li>
-                    <li class="texto-01"><a href="product-view.html" class="link link1">Herbal Toothpaste</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=detan-gel" class="link link1">De-Tan Gel</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=neem-tulsi-gel" class="link link1">Aloe Vera Neem Tulsi Gel</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=aloe-skin-gel" class="link link1">Aloe Vera Skin Gel</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=aloe-shampoo" class="link link1">Aloe Vera Shampoo</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=hair-growth-serum" class="link link1">Hair Growth Serum</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=pain-relief-balm" class="link link1">Pain Relief Balm</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=roll-on-deodorant" class="link link1">Roll On Deodorant</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=herbal-ubtan-powder" class="link link1">Herbal Ubtan Powder</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=mint-lip-balm" class="link link1">Mint Lip Balm</a></li>
+                    <li class="texto-01"><a href="product-view.html?product=herbal-toothpaste" class="link link1">Herbal Toothpaste</a></li>
                     <li class="texto-01 show-all"><a href="products.html" class="product-buttom link link1">Show all</a></li>
                 </ul>
                 <div class="box-close-menu-subcategory">
@@ -179,24 +175,24 @@
     </header>
 
     <main class="main-content-total-page panel">
-        <section class="section-banner-custom-01 section-custom-padding">
+        <section class="section-banner-custom-01 section-banner-product section-custom-padding">
             <div class="container">
                 <div class="box-content-50-50">
                     <div class="box-img-50-50">
-                        <img src="wp-content/uploads/gayatri/detan-gel.jpg" alt="De-Tan Gel" class="background-50-50 product-hero-img">
+                        <img src="wp-content/uploads/gayatri/detan-gel.jpg" alt="De-Tan Gel" class="background-50-50 product-hero-img" id="pv-image">
                     </div>
                     <div class="box-text-50-50">
                         <div class="box-top-category-swiper">
-                            <p class="btn-cat-01"><b>SKIN</b> CARE</p>
+                            <p class="btn-cat-01" id="pv-category"><b>SKIN</b> CARE</p>
                         </div>
                         <div class="box-title-50-50">
-                            <h1 class="title-01">De-Tan Gel</h1>
+                            <h1 class="title-01" id="pv-name">De-Tan Gel</h1>
                         </div>
                         <div class="box-text-50-50-internal">
-                            <p class="texto-01">
+                            <p class="texto-01" id="pv-desc">
                                 A brightening de-tan gel that gently lifts tan, evens skin tone and restores your skin's natural glow. Powered by salicylic acid, papaya, turmeric and niacinamide, it exfoliates dead cells while soothing and hydrating the skin — suitable for all skin types.
                             </p>
-                            <div class="box-specs-product">
+                            <div class="box-specs-product" id="pv-specs">
                                 <p class="texto-02"><strong>Skin Concern:</strong> De-Tan</p>
                                 <p class="texto-02"><strong>Key Ingredients:</strong> Salicylic Acid, Papaya, Turmeric, Niacinamide</p>
                                 <p class="texto-02"><strong>Packaging Size:</strong> 100 gm</p>
@@ -221,26 +217,26 @@
                             <p class="texto-02">More herbal care from the same family — natural actives, gentle formulations and honest ingredients in every pack.</p>
                         </div>
                     </div>
-                    <div class="content-our-products">
-                        <a href="product-view.html" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="00">
+                    <div class="content-our-products" id="pv-related">
+                        <a href="product-view.html?product=neem-tulsi-gel" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="00">
                             <img src="wp-content/uploads/gayatri/neem-tulsi-gel.jpg" alt="">
                             <div class="box-title-product">
                                 <h3 class="title-02">Aloe Vera Neem Tulsi Gel</h3>
                             </div>
                         </a>
-                        <a href="product-view.html" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="20">
+                        <a href="product-view.html?product=aloe-skin-gel" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="20">
                             <img src="wp-content/uploads/gayatri/aloe-skin-gel.jpg" alt="">
                             <div class="box-title-product">
                                 <h3 class="title-02">Aloe Vera Skin Gel</h3>
                             </div>
                         </a>
-                        <a href="product-view.html" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="40">
+                        <a href="product-view.html?product=ayurvedic-third-party" class="box-product-custom" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="40">
                             <img src="wp-content/uploads/gayatri/detan-massage-cream.jpg" alt="">
                             <div class="box-title-product">
                                 <h3 class="title-02">De-Tanning Massage Cream</h3>
                             </div>
                         </a>
-                        <a href="product-view.html" class="box-product-custom box-product-custom-big" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="60">
+                        <a href="product-view.html?product=aloe-shampoo" class="box-product-custom box-product-custom-big" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="60">
                             <img src="wp-content/uploads/gayatri/aloe-shampoo.jpg" alt="">
                             <div class="box-title-product">
                                 <h3 class="title-02">Aloe Vera Shampoo</h3>
@@ -287,7 +283,7 @@
                     <div class="box-top-footer">
                         <div class="box-left-top-footer">
                             <a href="index.html">
-                                <img src="wp-content/uploads/gayatri/logo.jpg" alt="Gayatri Herbals Pvt. Ltd." class="logo-footer" style="border-radius: 12px;">
+                                <strong class="texto-01" style="color:#fff;">Gayatri Herbals Pvt. Ltd.</strong>
                             </a>
                         </div>
                         <div class="box-right-top-footer">
@@ -385,6 +381,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.6.0/jquery.marquee.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="wp-content/themes/amc/assets/js/products-data.js"></script>
     <script src="wp-content/themes/amc/assets/js/gsap.min.js"></script>
     <script src="wp-content/themes/amc/assets/js/ScrollTrigger.min.js"></script>
     <script src="wp-content/themes/amc/assets/js/ScrollSmoother.min.js"></script>
